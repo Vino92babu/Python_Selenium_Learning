@@ -1,20 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="13918bd8-a90c-4e02-bcbc-3d42ef5c4659" name="Changes" comment="" />
+    <list default="true" id="13918bd8-a90c-4e02-bcbc-3d42ef5c4659" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Vino92babu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Vino92babu/Python_Selenium_Learning.git",
+    "accountId": "4901151d-5df4-4551-931d-59634e79c060"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.3120826372254029" />
+      <entry key="MS500" value="1.792234810924969" />
+      <entry key="S2" value="1.94343825089536" />
+      <entry key="S5" value="1.9769793676119334" />
+      <entry key="S10" value="1.988422666480253" />
+      <entry key="S30" value="1.996126036939033" />
+      <entry key="S60" value="1.9988022991032794" />
+      <entry key="M2" value="2.0534796289485575" />
+      <entry key="M5" value="2.7167964535842932" />
+      <entry key="M10" value="3.6935390645362767" />
+      <entry key="M15" value="4.255407226018263" />
+      <entry key="M30" value="5.003623746369633" />
+      <entry key="H1" value="5.466198030242055" />
+      <entry key="H2" value="5.723546810744327" />
+      <entry key="H4" value="5.859299089447534" />
+      <entry key="D1" value="5.976198617288987" />
+      <entry key="W1" value="5.9965911003475485" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.43165488307488087" />
+      <entry key="MS500" value="1.4202014872077733" />
+      <entry key="S2" value="1.83258951327301" />
+      <entry key="S5" value="1.9309909613237821" />
+      <entry key="S10" value="1.9651444370492168" />
+      <entry key="S30" value="1.9883026311355838" />
+      <entry key="S60" value="1.9948782871534405" />
+      <entry key="M2" value="2.051359014241176" />
+      <entry key="M5" value="2.71516719995078" />
+      <entry key="M10" value="3.692146655370796" />
+      <entry key="M15" value="4.2542569561915675" />
+      <entry key="M30" value="5.0029006459521455" />
+      <entry key="H1" value="5.46579070656445" />
+      <entry key="H2" value="5.723330411209678" />
+      <entry key="H4" value="5.859187529445877" />
+      <entry key="D1" value="5.976179541635323" />
+      <entry key="W1" value="5.996588363233686" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8,
   "fromUser": false
 }]]></component>
   <component name="ProjectId" id="3FFiXj8DinuZVMd3dqXc99PEpgD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,11 +109,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.demo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -44,8 +142,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781677260775</updated>
-      <workItem from="1781677262205" duration="15000" />
+      <workItem from="1781677262205" duration="1574000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Selenium$demo.coverage" NAME="demo Coverage Results" MODIFIED="1781677884768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
