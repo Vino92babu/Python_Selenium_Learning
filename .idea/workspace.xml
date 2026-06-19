@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13918bd8-a90c-4e02-bcbc-3d42ef5c4659" name="Changes" comment="aa">
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+    <list default="true" id="13918bd8-a90c-4e02-bcbc-3d42ef5c4659" name="Changes" comment=" revome">
+      <change afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testleaf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,85 +24,85 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "OPEN"
+      &quot;state&quot;: &quot;OPEN&quot;
     }
   ],
-  "lastFilter": {
-    "state": "OPEN"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Vino92babu/Python_Selenium_Learning.git",
-    "accountId": "4901151d-5df4-4551-931d-59634e79c060"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Vino92babu/Python_Selenium_Learning.git&quot;,
+    &quot;accountId&quot;: &quot;4901151d-5df4-4551-931d-59634e79c060&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000229108" />
-      <entry key="S30" value="1.0004508503149112" />
-      <entry key="S60" value="1.0300394550108565" />
-      <entry key="M2" value="1.2517395800414124" />
-      <entry key="M5" value="2.1733877324491755" />
-      <entry key="M10" value="3.427364060896075" />
-      <entry key="M15" value="4.216641104075668" />
-      <entry key="M30" value="5.350261715184109" />
-      <entry key="H1" value="6.096836843577157" />
-      <entry key="H2" value="6.526789504389585" />
-      <entry key="H4" value="6.757706326445709" />
-      <entry key="D1" value="6.958802570766302" />
-      <entry key="W1" value="6.994094354331069" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.604183212833365E-88" />
+      <entry key="S2" value="1.3787541038237669E-22" />
+      <entry key="S5" value="1.8980883784480766E-9" />
+      <entry key="S10" value="5.381858386648864E-5" />
+      <entry key="S30" value="0.10764308194317151" />
+      <entry key="S60" value="1.1192435342180025" />
+      <entry key="M2" value="4.480336123041483" />
+      <entry key="M5" value="14.136619286805468" />
+      <entry key="M10" value="25.35610502475904" />
+      <entry key="M15" value="32.500319530399906" />
+      <entry key="M30" value="45.22144430198979" />
+      <entry key="H1" value="58.82603807710866" />
+      <entry key="H2" value="71.21520146442022" />
+      <entry key="H4" value="80.17908055270208" />
+      <entry key="D1" value="89.78663688309892" />
+      <entry key="W1" value="91.67715184721196" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000122221379" />
+      <entry key="S5" value="1.0017173702671283" />
+      <entry key="S10" value="1.0416297361862061" />
+      <entry key="S30" value="1.4371554094546164" />
+      <entry key="S60" value="2.0719236342667204" />
+      <entry key="M2" value="3.1801496322109513" />
+      <entry key="M5" value="5.904068099466212" />
+      <entry key="M10" value="8.729015056501858" />
+      <entry key="M15" value="10.352296940132003" />
+      <entry key="M30" value="13.013776107416149" />
+      <entry key="H1" value="15.704387453659256" />
+      <entry key="H2" value="18.089749047747084" />
+      <entry key="H4" value="19.788427976722947" />
+      <entry key="D1" value="21.58814459571181" />
+      <entry key="W1" value="21.939986376672998" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9889709163809315" />
-      <entry key="S2" value="0.9972312513520695" />
-      <entry key="S5" value="0.9988915792636801" />
-      <entry key="S10" value="0.999445635994745" />
-      <entry key="S30" value="1.0002642611333223" />
-      <entry key="S60" value="1.029888066751178" />
-      <entry key="M2" value="1.2514334015128956" />
-      <entry key="M5" value="2.1726655720453993" />
-      <entry key="M10" value="3.4264397389116197" />
-      <entry key="M15" value="4.2157654595597895" />
-      <entry key="M30" value="5.3496299549573" />
-      <entry key="H1" value="6.096455503193575" />
-      <entry key="H2" value="6.5265797738183355" />
-      <entry key="H4" value="6.757596315670309" />
-      <entry key="D1" value="6.958783486459442" />
-      <entry key="W1" value="6.99409160918822" />
+      <entry key="MS100" value="1.9448251759632294E-5" />
+      <entry key="MS500" value="0.11422893127867505" />
+      <entry key="S2" value="0.5813585361263351" />
+      <entry key="S5" value="0.8059928286355387" />
+      <entry key="S10" value="0.929421325346441" />
+      <entry key="S30" value="1.456448670822187" />
+      <entry key="S60" value="3.0541732549088128" />
+      <entry key="M2" value="7.483156024337326" />
+      <entry key="M5" value="19.866479935864437" />
+      <entry key="M10" value="33.94235029179749" />
+      <entry key="M15" value="42.73525078013843" />
+      <entry key="M30" value="58.159502957055345" />
+      <entry key="H1" value="74.48547025560151" />
+      <entry key="H2" value="89.27977671641798" />
+      <entry key="H4" value="99.95403476742685" />
+      <entry key="D1" value="111.37238626177631" />
+      <entry key="W1" value="113.61679196413229" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3FFiXj8DinuZVMd3dqXc99PEpgD" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -113,6 +115,8 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.demo.executor": "Run",
+    "Python.practice.executor": "Run",
+    "Python.testleaf.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -126,7 +130,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "advanced.settings",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -145,7 +149,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781677260775</updated>
-      <workItem from="1781677262205" duration="1780000" />
+      <workItem from="1781677262205" duration="3935000" />
+      <workItem from="1781845748978" duration="4664000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <option name="closed" value="true" />
@@ -163,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781678985044</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" revome">
+      <option name="closed" value="true" />
+      <created>1781679093732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781679093732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aa" />
+    <MESSAGE value=" revome" />
+    <option name="LAST_COMMIT_MESSAGE" value=" revome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,6 +222,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Selenium$demo.coverage" NAME="demo Coverage Results" MODIFIED="1781677884768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Selenium$demo.coverage" NAME="demo Coverage Results" MODIFIED="1781679411021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Selenium$practice.coverage" NAME="practice Coverage Results" MODIFIED="1781849166353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Selenium$testleaf.coverage" NAME="testleaf Coverage Results" MODIFIED="1781853667910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
