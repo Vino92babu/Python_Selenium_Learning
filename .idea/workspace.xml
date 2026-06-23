@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13918bd8-a90c-4e02-bcbc-3d42ef5c4659" name="Changes" comment=" revome">
-      <change afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testleaf.py" afterDir="false" />
+    <list default="true" id="13918bd8-a90c-4e02-bcbc-3d42ef5c4659" name="Changes" comment=" demo">
+      <change afterPath="$PROJECT_DIR$/Selenium/Locator1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/webelements.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/Locators2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testleaf.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +40,12 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Vino92babu/Python_Selenium_Learning.git&quot;,
-    &quot;accountId&quot;: &quot;4901151d-5df4-4551-931d-59634e79c060&quot;
+    &quot;accountId&quot;: &quot;0ec189ce-beea-415c-9ae9-e1413bd5e9f5&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Selenium/Day1.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="0.0" />
@@ -114,9 +120,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Day1.executor": "Run",
+    "Python.Locator.executor": "Run",
+    "Python.Locators2.executor": "Run",
     "Python.demo.executor": "Run",
     "Python.practice.executor": "Run",
     "Python.testleaf.executor": "Run",
+    "Python.webelements.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -124,17 +134,23 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learning\Python_Selenium\Selenium" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -176,7 +192,31 @@
       <option name="project" value="LOCAL" />
       <updated>1781679093732</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" demo">
+      <option name="closed" value="true" />
+      <created>1782163595579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1782163595579</updated>
+    </task>
+    <task id="LOCAL-00005" summary=" demo">
+      <option name="closed" value="true" />
+      <created>1782231149957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1782231149957</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" demo">
+      <option name="closed" value="true" />
+      <created>1782231160866</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1782231160866</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +248,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aa" />
     <MESSAGE value=" revome" />
-    <option name="LAST_COMMIT_MESSAGE" value=" revome" />
+    <MESSAGE value=" demo" />
+    <option name="LAST_COMMIT_MESSAGE" value=" demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -217,6 +258,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Selenium/webelements.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
