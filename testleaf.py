@@ -9,4 +9,5 @@ driver.find_element(By.ID,"username").send_keys("democsr")
 
 driver.find_element(By.ID,"password").send_keys("crmsfa")
 driver.find_element(By.CLASS_NAME,"decorativeSubmit").click()
+driver.find_element(By.LINK_TEXT,"/opentaps_images/integratingweb/crm.png").click()
 time.sleep(2)
