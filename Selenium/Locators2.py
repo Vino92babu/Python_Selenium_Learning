@@ -9,9 +9,4 @@ driver.find_element(By.XPATH,"//form/div[1]/input").send_keys("demo@gmail.com")
 driver.find_element(By.XPATH,"//form/div[2]/input").send_keys("123")
 driver.find_element(By.CSS_SELECTOR,"form div:nth-child(3) input").send_keys("123")
 driver.find_element(By.XPATH,"//button[text()='Save New Password']").click()
-
-
-
-
-
 time.sleep(2)
