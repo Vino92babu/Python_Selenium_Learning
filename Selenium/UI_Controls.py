@@ -1,9 +1,12 @@
+from itertools import count
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
 from selenium.webdriver.support.select import Select
+
+from Selenium.webelements import Countries
 
 driver=webdriver.Chrome()
 '''driver.get("https://rahulshettyacademy.com/AutomationPractice/")
@@ -24,8 +27,8 @@ for checkbox in chkbx:
 '''
 # Radio Button
 # Static Radio button
-driver.get("https://www.sreenidhirajakrishnan.com/practice?utm_source=sp_auto_dm&utm_referrer=sp_auto_dm&fbclid=PAT01DUASvkt1leHRuA2FlbQIxMABzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAaecrzPgG4Ywp8o5SYBeclsS7CPfX2WGpd8T0HWsnqHvGe8jgUb91LcAIF1nzg_aem_hPrp5rPeLzIUNLz60JBw9g")
-driver.maximize_window()
+# driver.get("https://www.sreenidhirajakrishnan.com/practice?utm_source=sp_auto_dm&utm_referrer=sp_auto_dm&fbclid=PAT01DUASvkt1leHRuA2FlbQIxMABzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAaecrzPgG4Ywp8o5SYBeclsS7CPfX2WGpd8T0HWsnqHvGe8jgUb91LcAIF1nzg_aem_hPrp5rPeLzIUNLz60JBw9g")
+# driver.maximize_window()
 # radio_option=driver.find_elements(By.XPATH,"//select[@id='standard-select']")
 # print(len(radio_option))
 # for option in radio_option:
@@ -34,10 +37,31 @@ driver.maximize_window()
 #         print(option.get_attribute("value"))
 #         break
 
-dropdown = Select(driver.find_element(By.ID, "standard-select"))
+# dropdown = Select(driver.find_element(By.ID, "standard-select"))
+#
+# dropdown.select_by_visible_text("Red")
+# time.sleep(2)
+# dropdown.select_by_value("blue")
+# message = driver.find_element(By.ID, "standard-select").text
 
-dropdown.select_by_visible_text("Red")
-time.sleep(2)
-dropdown.select_by_value("blue")
-message = driver.find_element(By.ID, "standard-select").text
+driver.get("https://practice.expandtesting.com/dropdown")
+driver.maximize_window()
+countries = driver.find_elements(By.XPATH,'//select[@id="country"]/option')
+print(len(countries))
+print(countries.get_attribute("value"))
+for Country in countries:
+    if Country.text == "India":
+        Country.click()
+        break
 
+
+
+
+
+
+
+
+
+
+
+time.sleep(5)

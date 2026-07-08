@@ -9,7 +9,10 @@ driver = webdriver.Chrome()
 # driver.find_element(By.NAME,"email").send_keys("abc@gmail.com")
 # driver.find_element(By.CSS_SELECTOR,'input[placeholder="Password"]').send_keys("Admin123")
 # driver.find_element(By.XPATH,'//input[@type="checkbox"]').click()
+
 # Dropdown-Static
+
+
 # dropdown=Select(driver.find_element(By.ID,"exampleFormControlSelect1"))
 # dropdown.select_by_index(1)
 # dropdown.select_by_visible_text('Male')
