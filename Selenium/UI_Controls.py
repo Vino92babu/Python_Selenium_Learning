@@ -6,7 +6,7 @@ import time
 
 from selenium.webdriver.support.select import Select
 
-from Selenium.webelements import Countries
+# from Selenium.webelements import Countries
 
 driver=webdriver.Chrome()
 '''driver.get("https://rahulshettyacademy.com/AutomationPractice/")
@@ -44,19 +44,28 @@ for checkbox in chkbx:
 # dropdown.select_by_value("blue")
 # message = driver.find_element(By.ID, "standard-select").text
 
-driver.get("https://practice.expandtesting.com/dropdown")
+# driver.get("https://practice.expandtesting.com/dropdown")
+# driver.maximize_window()
+# countries = driver.find_elements(By.XPATH,'//select[@id="country"]/option')
+# print(len(countries))
+# print(countries.get_attribute("value"))
+# for Country in countries:
+#     if Country.text == "India":
+#         Country.click()
+#         break
+
+
+driver.get("https://rahulshettyacademy.com/AutomationPractice/")
 driver.maximize_window()
-countries = driver.find_elements(By.XPATH,'//select[@id="country"]/option')
-print(len(countries))
-print(countries.get_attribute("value"))
-for Country in countries:
-    if Country.text == "India":
-        Country.click()
+# Select(driver.find_element(By.XPATH,'//select[@id="dropdown-class-example"]')).select_by_value('option2')
+# driver.find_element(By.XPATH,'//select[@id="dropdown-class-example"]').click()
+dropdowns = driver.find_elements(By.XPATH,'//select[@id="dropdown-class-example"]/option')
+print(len(dropdowns))
+for dropdown in dropdowns:
+    if dropdown.get_attribute("value") == "option2":
+        dropdown.click()
+        assert driver.find_element(By.XPATH,'//select[@id="dropdown-class-example"]').get_attribute('value') == 'option2'
         break
-
-
-
-
 
 
 

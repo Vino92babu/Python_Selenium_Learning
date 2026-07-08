@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13918bd8-a90c-4e02-bcbc-3d42ef5c4659" name="Changes" comment="UI_Control--&gt; dropdown">
-      <change afterPath="$PROJECT_DIR$/Selenium/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_Selenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Selenium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Selenium/UI_Controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/UI_Controls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium/webelements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/webelements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,61 +44,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1725427103332612E-5" />
-      <entry key="MS500" value="0.10327946528900761" />
-      <entry key="S2" value="0.7004461936291801" />
-      <entry key="S5" value="1.7276832956967894" />
-      <entry key="S10" value="2.9357679846763514" />
-      <entry key="S30" value="4.891231083747123" />
-      <entry key="S60" value="6.053743561511733" />
-      <entry key="M2" value="7.423705402510801" />
-      <entry key="M5" value="10.723291191588263" />
-      <entry key="M10" value="15.221450557188092" />
-      <entry key="M15" value="19.816961673128272" />
-      <entry key="M30" value="36.21501947407198" />
-      <entry key="H1" value="65.70875009812163" />
-      <entry key="H2" value="100.01036939491901" />
-      <entry key="H4" value="128.3845019450983" />
-      <entry key="D1" value="161.85406159860614" />
-      <entry key="W1" value="168.8017761395602" />
+      <entry key="MS100" value="1.0000000005812992" />
+      <entry key="MS500" value="1.0142252031074355" />
+      <entry key="S2" value="1.394491264870562" />
+      <entry key="S5" value="1.953265680117045" />
+      <entry key="S10" value="2.355883271043857" />
+      <entry key="S30" value="2.7496214759523223" />
+      <entry key="S60" value="2.8696407848383716" />
+      <entry key="M2" value="2.933537200103531" />
+      <entry key="M5" value="3.015165005635165" />
+      <entry key="M10" value="3.3647885636065977" />
+      <entry key="M15" value="3.986552650398469" />
+      <entry key="M30" value="8.568185630234355" />
+      <entry key="H1" value="27.864512142811325" />
+      <entry key="H2" value="79.06574640159924" />
+      <entry key="H4" value="165.04457677541237" />
+      <entry key="D1" value="356.0009369919776" />
+      <entry key="W1" value="412.5475716687831" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.000000000793415" />
-      <entry key="S10" value="1.000031827320373" />
-      <entry key="S30" value="1.0684512595927038" />
-      <entry key="S60" value="1.5735479246421753" />
-      <entry key="M2" value="2.9476673531665547" />
-      <entry key="M5" value="6.856723322365501" />
-      <entry key="M10" value="11.053599838620226" />
-      <entry key="M15" value="13.985070560211298" />
-      <entry key="M30" value="21.49900305834469" />
-      <entry key="H1" value="32.60227567114773" />
-      <entry key="H2" value="44.06964397188291" />
-      <entry key="H4" value="52.86267532472666" />
-      <entry key="D1" value="62.682073546885604" />
-      <entry key="W1" value="64.66061206052267" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="7.039854545325408E-167" />
+      <entry key="S30" value="1.1456795494270572E-55" />
+      <entry key="S60" value="8.361746571047949E-28" />
+      <entry key="M2" value="9.075085696638797E-14" />
+      <entry key="M5" value="3.760888577921672E-5" />
+      <entry key="M10" value="0.03352559914442332" />
+      <entry key="M15" value="0.34137482932668256" />
+      <entry key="M30" value="4.060603736139931" />
+      <entry key="H1" value="17.58431771048207" />
+      <entry key="H2" value="45.647511388268676" />
+      <entry key="H4" value="85.65677154421381" />
+      <entry key="D1" value="165.39438849159689" />
+      <entry key="W1" value="187.88095367993063" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2831061481679205E-5" />
-      <entry key="MS500" value="0.10856126169164816" />
-      <entry key="S2" value="0.9439809715255723" />
-      <entry key="S5" value="2.2940161425915067" />
-      <entry key="S10" value="3.6861470319532232" />
-      <entry key="S30" value="5.857720537818944" />
-      <entry key="S60" value="7.557008054256488" />
-      <entry key="M2" value="10.31216603546141" />
-      <entry key="M5" value="17.527196331834027" />
-      <entry key="M10" value="26.23194166786736" />
-      <entry key="M15" value="33.763965693129435" />
-      <entry key="M30" value="57.67755439218656" />
-      <entry key="H1" value="98.2758407293866" />
-      <entry key="H2" value="144.0526490928947" />
-      <entry key="H4" value="181.22959142124566" />
-      <entry key="D1" value="224.53246384437807" />
-      <entry key="W1" value="233.46184225846844" />
+      <entry key="MS100" value="0.8950250714446559" />
+      <entry key="MS500" value="0.9919570576202246" />
+      <entry key="S2" value="1.3860044538889664" />
+      <entry key="S5" value="1.9472352035523603" />
+      <entry key="S10" value="2.3517397173023746" />
+      <entry key="S30" value="2.7478471359391645" />
+      <entry key="S60" value="2.8686919287676536" />
+      <entry key="M2" value="2.9330459670616498" />
+      <entry key="M5" value="3.0149380475592165" />
+      <entry key="M10" value="3.397824302712429" />
+      <entry key="M15" value="4.326649857758829" />
+      <entry key="M30" value="12.62296576566227" />
+      <entry key="H1" value="45.43580595594196" />
+      <entry key="H2" value="124.69482286028425" />
+      <entry key="H4" value="250.6822998881499" />
+      <entry key="D1" value="521.388438828666" />
+      <entry key="W1" value="600.4273825114897" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -248,10 +249,11 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Selenium_Learning$practice.coverage" NAME="practice Coverage Results" MODIFIED="1783508611450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
     <SUITE FILE_PATH="coverage/Python_Selenium$demo.coverage" NAME="demo Coverage Results" MODIFIED="1781679411021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Selenium_Learning$Locators2.coverage" NAME="Locators2 Coverage Results" MODIFIED="1783068997324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
     <SUITE FILE_PATH="coverage/Python_Selenium$practice.coverage" NAME="practice Coverage Results" MODIFIED="1781849166353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Selenium_Learning$UI_Controls.coverage" NAME="UI_Controls Coverage Results" MODIFIED="1783074114988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/Python_Selenium_Learning$UI_Controls.coverage" NAME="UI_Controls Coverage Results" MODIFIED="1783504812175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
     <SUITE FILE_PATH="coverage/Python_Selenium_Learning$Locator1.coverage" NAME="Locator1 Coverage Results" MODIFIED="1783058501380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
     <SUITE FILE_PATH="coverage/Python_Selenium$testleaf.coverage" NAME="testleaf Coverage Results" MODIFIED="1781853667910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
