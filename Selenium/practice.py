@@ -132,8 +132,30 @@ def waits():
     print(total_products_count)
     assert total_products_count >0
     # add_cart_btn = driver.find_elements(By.XPATH,'//div[@class="product"]/div/button')
+    count =0
     for product in total_products:
         product.find_element(By.XPATH,'div/button').click()
-
+        count = count + 1
+    print(count)
+    # assert count == total_products_count
+    item = driver.find_element(By.XPATH,'//tbody/tr[1]/td/strong')
+    item_count = int(item.text)
+    print(item_count)
+    assert item_count == count == total_products_count
+    Cart_btn = driver.find_element(By.CSS_SELECTOR, 'img[alt="Cart"]')
+    Cart_btn.click()
+    time.sleep(2)
+    chk_out_btn = driver.find_element(By.XPATH,'//button[text()="PROCEED TO CHECKOUT"]')
+    chk_out_btn.click()
+    time.sleep(5)
+    apply_promo_text = driver.find_element(By.CSS_SELECTOR, '.promoCode')
+    apply_promo_text.send_keys("rahulshettyacademy")
+    time.sleep(1)
+    apply_btn = driver.find_element(By.CSS_SELECTOR,'.promoBtn')
+    apply_btn.click()
+    time.sleep(5)
+    succ_promo_text = driver.find_element(By.CLASS_NAME, 'promoInfo')
+    print(succ_promo_text.text)
+    assert succ_promo_text.text == "Code applied ..!"
 waits()
 
