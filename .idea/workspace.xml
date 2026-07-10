@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13918bd8-a90c-4e02-bcbc-3d42ef5c4659" name="Changes" comment="UI_Control--&gt; dropdown">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Selenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Selenium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="13918bd8-a90c-4e02-bcbc-3d42ef5c4659" name="Changes" comment="practice updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium/UI_Controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/UI_Controls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Selenium/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,69 +33,69 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Vino92babu/Python_Selenium_Learning.git&quot;,
-    &quot;accountId&quot;: &quot;0ec189ce-beea-415c-9ae9-e1413bd5e9f5&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Vino92babu/Python_Selenium_Learning.git",
+    "accountId": "4901151d-5df4-4551-931d-59634e79c060"
   }
-}</component>
+}]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000005812992" />
-      <entry key="MS500" value="1.0142252031074355" />
-      <entry key="S2" value="1.394491264870562" />
-      <entry key="S5" value="1.953265680117045" />
-      <entry key="S10" value="2.355883271043857" />
-      <entry key="S30" value="2.7496214759523223" />
-      <entry key="S60" value="2.8696407848383716" />
-      <entry key="M2" value="2.933537200103531" />
-      <entry key="M5" value="3.015165005635165" />
-      <entry key="M10" value="3.3647885636065977" />
-      <entry key="M15" value="3.986552650398469" />
-      <entry key="M30" value="8.568185630234355" />
-      <entry key="H1" value="27.864512142811325" />
-      <entry key="H2" value="79.06574640159924" />
-      <entry key="H4" value="165.04457677541237" />
-      <entry key="D1" value="356.0009369919776" />
-      <entry key="W1" value="412.5475716687831" />
+      <entry key="MS100" value="5.229357865529392E-19" />
+      <entry key="MS500" value="2.2064275555446421E-4" />
+      <entry key="S2" value="0.12187718624954218" />
+      <entry key="S5" value="0.4310545853951224" />
+      <entry key="S10" value="0.6717280084240004" />
+      <entry key="S30" value="1.2819378792533993" />
+      <entry key="S60" value="2.119190812902834" />
+      <entry key="M2" value="3.2964607754301136" />
+      <entry key="M5" value="5.925183923531509" />
+      <entry key="M10" value="9.911850831380411" />
+      <entry key="M15" value="13.662074406219809" />
+      <entry key="M30" value="24.82455566393045" />
+      <entry key="H1" value="45.62886053738485" />
+      <entry key="H2" value="91.14884719908746" />
+      <entry key="H4" value="177.1781770369257" />
+      <entry key="D1" value="405.20437059483453" />
+      <entry key="W1" value="479.89862522358726" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="7.039854545325408E-167" />
-      <entry key="S30" value="1.1456795494270572E-55" />
-      <entry key="S60" value="8.361746571047949E-28" />
-      <entry key="M2" value="9.075085696638797E-14" />
-      <entry key="M5" value="3.760888577921672E-5" />
-      <entry key="M10" value="0.03352559914442332" />
-      <entry key="M15" value="0.34137482932668256" />
-      <entry key="M30" value="4.060603736139931" />
-      <entry key="H1" value="17.58431771048207" />
-      <entry key="H2" value="45.647511388268676" />
-      <entry key="H4" value="85.65677154421381" />
-      <entry key="D1" value="165.39438849159689" />
-      <entry key="W1" value="187.88095367993063" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000469988792" />
+      <entry key="S10" value="1.0002172179132363" />
+      <entry key="S30" value="1.07868035837673" />
+      <entry key="S60" value="1.5173693153579912" />
+      <entry key="M2" value="2.5697751696559665" />
+      <entry key="M5" value="4.950179263266834" />
+      <entry key="M10" value="7.865997818745811" />
+      <entry key="M15" value="10.651166425242998" />
+      <entry key="M30" value="19.635106221708067" />
+      <entry key="H1" value="36.16211556573764" />
+      <entry key="H2" value="65.83754408342232" />
+      <entry key="H4" value="111.26342959984518" />
+      <entry key="D1" value="214.46072534548858" />
+      <entry key="W1" value="246.0994143189099" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8950250714446559" />
-      <entry key="MS500" value="0.9919570576202246" />
-      <entry key="S2" value="1.3860044538889664" />
-      <entry key="S5" value="1.9472352035523603" />
-      <entry key="S10" value="2.3517397173023746" />
-      <entry key="S30" value="2.7478471359391645" />
-      <entry key="S60" value="2.8686919287676536" />
-      <entry key="M2" value="2.9330459670616498" />
-      <entry key="M5" value="3.0149380475592165" />
-      <entry key="M10" value="3.397824302712429" />
-      <entry key="M15" value="4.326649857758829" />
-      <entry key="M30" value="12.62296576566227" />
-      <entry key="H1" value="45.43580595594196" />
-      <entry key="H2" value="124.69482286028425" />
-      <entry key="H4" value="250.6822998881499" />
-      <entry key="D1" value="521.388438828666" />
-      <entry key="W1" value="600.4273825114897" />
+      <entry key="MS100" value="3.297947812301332E-6" />
+      <entry key="MS500" value="0.08028750697001158" />
+      <entry key="S2" value="0.6485489929712395" />
+      <entry key="S5" value="1.2003140670775998" />
+      <entry key="S10" value="1.5473505788093636" />
+      <entry key="S30" value="2.3102542462830264" />
+      <entry key="S60" value="3.592974811479398" />
+      <entry key="M2" value="5.822811337287567" />
+      <entry key="M5" value="10.838920558035328" />
+      <entry key="M10" value="17.747899609281443" />
+      <entry key="M15" value="24.286193132077297" />
+      <entry key="M30" value="44.43562942915805" />
+      <entry key="H1" value="81.76909341827985" />
+      <entry key="H2" value="156.96484333479518" />
+      <entry key="H4" value="288.4209508952549" />
+      <entry key="D1" value="619.6572318438069" />
+      <entry key="W1" value="725.9967070235352" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -144,7 +141,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.25134.203" />
+        <option value="bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203" />
       </set>
     </attachedChunks>
   </component>
@@ -160,6 +158,7 @@
       <workItem from="1783057841251" duration="158000" />
       <workItem from="1783058059359" duration="1676000" />
       <workItem from="1783061180401" duration="5606000" />
+      <workItem from="1783684410731" duration="5164000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <option name="closed" value="true" />
@@ -201,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783193420750</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="practice updated">
+      <option name="closed" value="true" />
+      <created>1783515252567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783515252567</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +242,8 @@
     <MESSAGE value=" revome" />
     <MESSAGE value=" demo" />
     <MESSAGE value="UI_Control--&gt; dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI_Control--&gt; dropdown" />
+    <MESSAGE value="practice updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -249,7 +257,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Selenium_Learning$practice.coverage" NAME="practice Coverage Results" MODIFIED="1783508611450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/Python_Selenium_Learning$practice.coverage" NAME="practice Coverage Results" MODIFIED="1783690547618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
     <SUITE FILE_PATH="coverage/Python_Selenium$demo.coverage" NAME="demo Coverage Results" MODIFIED="1781679411021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Selenium_Learning$Locators2.coverage" NAME="Locators2 Coverage Results" MODIFIED="1783068997324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
     <SUITE FILE_PATH="coverage/Python_Selenium$practice.coverage" NAME="practice Coverage Results" MODIFIED="1781849166353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
