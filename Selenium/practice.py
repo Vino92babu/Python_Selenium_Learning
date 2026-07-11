@@ -7,6 +7,7 @@ from selenium.webdriver.support.select import Select
 driver=webdriver.Chrome()
 driver.maximize_window()
 
+
 '''Browser's url'''
 def browser(url):
     driver.get(url)
@@ -119,6 +120,7 @@ def alert():
 
 '''Wait Practice'''
 def waits():
+    driver.implicitly_wait(5)
     browser("https://rahulshettyacademy.com/seleniumPractise/#/")
     page_title = driver.title
     assert page_title == "GreenKart - veg and fruits kart"
@@ -144,16 +146,16 @@ def waits():
     assert item_count == count == total_products_count
     Cart_btn = driver.find_element(By.CSS_SELECTOR, 'img[alt="Cart"]')
     Cart_btn.click()
-    time.sleep(2)
+    # time.sleep(2)
     chk_out_btn = driver.find_element(By.XPATH,'//button[text()="PROCEED TO CHECKOUT"]')
     chk_out_btn.click()
-    time.sleep(5)
+    # time.sleep(5)
     apply_promo_text = driver.find_element(By.CSS_SELECTOR, '.promoCode')
     apply_promo_text.send_keys("rahulshettyacademy")
-    time.sleep(1)
+    # time.sleep(1)
     apply_btn = driver.find_element(By.CSS_SELECTOR,'.promoBtn')
     apply_btn.click()
-    time.sleep(5)
+    # time.sleep(5)
     succ_promo_text = driver.find_element(By.CLASS_NAME, 'promoInfo')
     print(succ_promo_text.text)
     assert succ_promo_text.text == "Code applied ..!"
