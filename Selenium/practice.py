@@ -1,6 +1,7 @@
 import time
 
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.select import Select
@@ -122,6 +123,7 @@ def alert():
 
 '''Wait Practice'''
 def waits():
+# search the product
     driver.implicitly_wait(2)
     browser("https://rahulshettyacademy.com/seleniumPractise/#/")
     page_title = driver.title
@@ -132,25 +134,31 @@ def waits():
     search_button.click()
     time.sleep(2)
 
-    # validating on items displayed.
+# validating on product displayed.
     expected_list = ['Cucumber - 1 Kg','Beetroot - 1 Kg','Beans - 1 Kg','Raspberry - 1/4 Kg','Strawberry - 1/4 Kg']
     actual_list = []
     total_list= driver.find_elements(By.XPATH,'//div/h4[@class="product-name"]')
     for list in total_list:
         actual_list.append(list.text)
+    print(actual_list)
     assert expected_list == actual_list
 
+# validating the number of product count should be > 0
     total_products = driver.find_elements(By.CSS_SELECTOR,'div[class="product"]')
     total_products_count = len(total_products)
     print(total_products_count)
     assert total_products_count >0
+
+# validating the number of product count with len of total_products_count
     # add_cart_btn = driver.find_elements(By.XPATH,'//div[@class="product"]/div/button')
     count =0
     for product in total_products:
         product.find_element(By.XPATH,'div/button').click()
         count = count + 1
     print(count)
-    # assert count == total_products_count
+    assert count == total_products_count
+
+ #validating item_count == count == total_products_coun and click on add to cart btn and PROCEED TO CHECKOUT btn
     item = driver.find_element(By.XPATH,'//tbody/tr[1]/td/strong')
     item_count = int(item.text)
     print(item_count)
@@ -161,6 +169,8 @@ def waits():
     chk_out_btn = driver.find_element(By.XPATH,'//button[text()="PROCEED TO CHECKOUT"]')
     chk_out_btn.click()
     # time.sleep(5)
+
+#Explicitly_wait adding
     apply_promo_text = driver.find_element(By.CSS_SELECTOR, '.promoCode')
     apply_promo_text.send_keys("rahulshettyacademy")
     # time.sleep(1)
@@ -182,23 +192,36 @@ def waits():
         total_sum = total_sum + price
     print(total_sum)
     total_Amount = int(driver.find_element(By.XPATH,'//span[@class="totAmt"]').text)
-    # if total_sum == total_Amount:
-    #     print("Total Amount is gets matched with total price")
-    # else:
-    #     print("recount the item")
     assert total_sum == int(total_Amount), "gets matched"
     total_discount = driver.find_element(By.XPATH,'//span[@class="discountPerc"]')
     discount = int(total_discount.text.replace('%',''))
-    final_price = (total_Amount/100)*discount
-    print("final_price: " ,final_price,type(final_price))
+    discount_amount = (total_Amount/100)*discount
+    print("final_price: " ,discount_amount,type(discount_amount))
     print("Total_amount:", total_Amount,type(total_Amount))
-    final_prices = (total_Amount - final_price)
+    final_prices = (total_Amount - discount_amount)
     print("final_price",final_prices,type(final_prices))
-    total_discount_amount = driver.find_element(By.XPATH,'//span[@class="discountAmt"]').text
-    place_order_btn = driver.find_element(By.LINK_TEXT,'Place Order')
-    print("Calculated final price:", repr(final_prices))
-    print("Displayed final price:", repr(float(total_discount_amount)))
-    assert round(float(final_prices), 2) == round(total_discount_amount, 2)
-    place_order_btn.click()
-waits()
+    total_after_discount = float(driver.find_element(By.XPATH,'//span[@class="discountAmt"]').text)
+    print("total_after_discount: ", total_after_discount,type(total_after_discount))
+    assert final_prices == total_after_discount and total_after_discount < total_Amount
+# waits()
 
+# Mouse_action_intraction
+def mouse_actions():
+    driver.implicitly_wait(2)
+    browser("https://rahulshettyacademy.com/AutomationPractice/")
+    page_title = driver.title
+    print(page_title)
+    assert page_title == "Practice Page"
+    action = ActionChains(driver)
+    mouse_overbutton = driver.find_element(By.ID,'mousehover')
+    action.move_to_element(mouse_overbutton).perform()
+    top_option = driver.find_element(By.LINK_TEXT,'Top')
+    # action.context_click(top_option).perform()
+    action.move_to_element(top_option).click().perform()
+    action.move_to_element(mouse_overbutton).perform()
+    reload_option = driver.find_element(By.LINK_TEXT,'Reload')
+    action.context_click(reload_option).perform()
+
+# mouse_actions()
+
+# Handel Child window/tab
