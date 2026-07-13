@@ -2,7 +2,9 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.wait import WebDriverWait
 
 driver=webdriver.Chrome()
 driver.maximize_window()
@@ -120,7 +122,7 @@ def alert():
 
 '''Wait Practice'''
 def waits():
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(2)
     browser("https://rahulshettyacademy.com/seleniumPractise/#/")
     page_title = driver.title
     assert page_title == "GreenKart - veg and fruits kart"
@@ -129,6 +131,15 @@ def waits():
     search_button = driver.find_element(By.CSS_SELECTOR, 'button[class="search-button"]')
     search_button.click()
     time.sleep(2)
+
+    # validating on items displayed.
+    expected_list = ['Cucumber - 1 Kg','Beetroot - 1 Kg','Beans - 1 Kg','Raspberry - 1/4 Kg','Strawberry - 1/4 Kg']
+    actual_list = []
+    total_list= driver.find_elements(By.XPATH,'//div/h4[@class="product-name"]')
+    for list in total_list:
+        actual_list.append(list.text)
+    assert expected_list == actual_list
+
     total_products = driver.find_elements(By.CSS_SELECTOR,'div[class="product"]')
     total_products_count = len(total_products)
     print(total_products_count)
@@ -156,8 +167,38 @@ def waits():
     apply_btn = driver.find_element(By.CSS_SELECTOR,'.promoBtn')
     apply_btn.click()
     # time.sleep(5)
+    wait = WebDriverWait(driver,15)
+    wait.until(expected_conditions.presence_of_element_located((By.CLASS_NAME, 'promoInfo')))
     succ_promo_text = driver.find_element(By.CLASS_NAME, 'promoInfo')
     print(succ_promo_text.text)
     assert succ_promo_text.text == "Code applied ..!"
+
+#other Validations
+    total_price = driver.find_elements(By.XPATH,'//td[5]/p[@class="amount"]')
+    total_sum = 0
+    for total_item_price in total_price:
+        price = int(total_item_price.text)
+        # print(price)
+        total_sum = total_sum + price
+    print(total_sum)
+    total_Amount = int(driver.find_element(By.XPATH,'//span[@class="totAmt"]').text)
+    # if total_sum == total_Amount:
+    #     print("Total Amount is gets matched with total price")
+    # else:
+    #     print("recount the item")
+    assert total_sum == int(total_Amount), "gets matched"
+    total_discount = driver.find_element(By.XPATH,'//span[@class="discountPerc"]')
+    discount = int(total_discount.text.replace('%',''))
+    final_price = (total_Amount/100)*discount
+    print("final_price: " ,final_price,type(final_price))
+    print("Total_amount:", total_Amount,type(total_Amount))
+    final_prices = (total_Amount - final_price)
+    print("final_price",final_prices,type(final_prices))
+    total_discount_amount = driver.find_element(By.XPATH,'//span[@class="discountAmt"]').text
+    place_order_btn = driver.find_element(By.LINK_TEXT,'Place Order')
+    print("Calculated final price:", repr(final_prices))
+    print("Displayed final price:", repr(float(total_discount_amount)))
+    assert round(float(final_prices), 2) == round(total_discount_amount, 2)
+    place_order_btn.click()
 waits()
 
