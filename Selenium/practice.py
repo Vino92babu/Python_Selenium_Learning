@@ -246,7 +246,7 @@ def tab_window():
     print(page_title)
     time.sleep(2)
     time.sleep(2)
-    time.sleep(2)
+    time.sleep(25)
 tab_window()
 
 
