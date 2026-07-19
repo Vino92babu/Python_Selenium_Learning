@@ -244,6 +244,7 @@ def tab_window():
     page_title = driver.title
     print(page_title)
     time.sleep(2)
+    time.sleep(2)
 tab_window()
 
 
