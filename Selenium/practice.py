@@ -134,6 +134,7 @@ def waits():
     search_button = driver.find_element(By.CSS_SELECTOR, 'button[class="search-button"]')
     search_button.click()
     time.sleep(2)
+    time.sleep(2)
 
 # validating on product displayed.
     expected_list = ['Cucumber - 1 Kg','Beetroot - 1 Kg','Beans - 1 Kg','Raspberry - 1/4 Kg','Strawberry - 1/4 Kg']
