@@ -243,8 +243,7 @@ def tab_window():
     driver.switch_to.window(windows_opened[0])
     page_title = driver.title
     print(page_title)
-
-
+    time.sleep(2)
 tab_window()
 
 
