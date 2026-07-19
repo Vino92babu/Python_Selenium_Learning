@@ -246,6 +246,7 @@ def tab_window():
     time.sleep(2)
     time.sleep(2)
     time.sleep(2)
+    time.sleep(2)
 tab_window()
 
 
