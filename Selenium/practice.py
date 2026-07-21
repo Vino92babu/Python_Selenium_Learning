@@ -245,11 +245,20 @@ def tab_window():
     page_title = driver.title
     print(page_title)
     time.sleep(2)
-tab_window()
+# tab_window()
 
+def iframe_practice():
+    driver.implicitly_wait(2)
+    browser("https://demo.automationtesting.in/Frames.html")
+    page_title = driver.title
+    assert page_title == "Frames"
+    driver.switch_to.frame("singleframe")
+    frame_name = driver.find_element(By.TAG_NAME,'h5').text
+    assert frame_name == "iFrame Demo"
+    print(frame_name)
+    text_box = driver.find_element(By.XPATH,'//input[@type="text"]')
+    text_box.clear()
+    text_box.send_keys("I founded the frame")
 
-
-
-
-
+iframe_practice()
 
