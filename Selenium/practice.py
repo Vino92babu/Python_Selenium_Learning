@@ -8,6 +8,14 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 
+'For "Headless" automation we have created chrome_options'
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("headless")
+'To ignore the cretificated error like ,"proceed"'
+chrome_options.add_argument("--ignore-certificate-errors")
+'pass chrome_options_add_argument when its needed' 
+# driver=webdriver.Chrome(options=chrome_options)
+
 driver=webdriver.Chrome()
 driver.maximize_window()
 
@@ -260,5 +268,38 @@ def iframe_practice():
     text_box.clear()
     text_box.send_keys("I founded the frame")
 
-iframe_practice()
+# iframe_practice()
+
+def js_scroll():
+    # driver_options.implicitly_wait(2)
+    # browser("https://rahulshettyacademy.com/AutomationPractice/")
+    browser("https://www.google.com/")
+    # driver.execute_script("window.scrollTo(0,500)")
+    # driver.execute_script("window.scrollTo(500,document.body.scrollHeight)")
+
+#  Headless testing --> create chrome_options and add arguments --> look at the top of this file
+
+# ignore certificate error --> create chrome_options and add arguments
+
+#Take screenshot 
+    driver.get_screenshot_as_file("aab.png")
+
+# js_scroll()
+
+def web_table_sort_demo():
+    driver.implicitly_wait(2)
+    browser("https://rahulshettyacademy.com/seleniumPractise/#/offers")
+    browser_list = []
+    vegis_list =[]
+    Select (driver.find_element(By.ID,'page-menu')).select_by_value("20")
+    vegis_sort_element = driver.find_element(By.XPATH,'//span[text()="Veg/fruit name"]')
+    vegis_sort_element.click()
+    time.sleep(2)
+    vegitables = driver.find_elements(By.XPATH,'//tr/td[1]')
+    for vegis in vegitables:
+        browser_list.append(vegis_list)
+    sorted_list = browser_list.copy()
+    sorted_list.sort()
+    assert sorted_list == browser_list
+web_table_sort_demo()
 
