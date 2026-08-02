@@ -1,4 +1,5 @@
 import time
+import openpyxl
 
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -301,5 +302,57 @@ def web_table_sort_demo():
     sorted_list = browser_list.copy()
     sorted_list.sort()
     assert sorted_list == browser_list
-web_table_sort_demo()
 
+# web_table_sort_demo()
+ 
+def excel_demo():
+    book = openpyxl.load_workbook("D:\\Learning\\Python_Selenium\\Selenium\\PythonDemo.xlsx")
+    sheet = book.active
+
+    # To read the value  
+    cell= sheet.cell(row=1,column=2)
+    cell.value
+    print(cell.value)
+
+    # Short method --> This is best
+    print(sheet['B1'].value)
+
+
+    # To write the value
+    sheet.cell(row=2,column=2).value="Vinoth"
+    sheet.cell(row=2,column=3).value="Babu"
+    sheet.cell(row=2,column=4).value="Vino92babu@gmail.com"
+    print(sheet.cell(row=2,column=3).value)
+
+     # Short method --> This is best
+    sheet['B2'].value="Vinoth"
+    print(sheet["B2"].value)
+
+    # To get max row
+    print("No of row: " ,sheet.max_row)
+
+    # To get max row
+    print("No of column: " ,sheet.max_column)
+
+    # To read all the value in sheet using for loop.
+
+    for i in range(1,sheet.max_row+1):
+        for j in range(1,sheet.max_column+1):
+            print(sheet.cell(row=i,column=j).value)
+
+    # To read specific testcase data value in sheet using for loop.
+    for i in range(1,sheet.max_row+1):
+        if sheet.cell(row=i,column=1).value =="Testcase4":
+            for j in range(2,sheet.max_column+1):
+                print(sheet.cell(row = i, column = j).value)
+
+    # To read specific testcase data value in sheet using for loop and store in dict.
+    Dict = {}
+    for i in range(1,sheet.max_row+1):
+        if sheet.cell(row=i,column=1).value =="Testcase4":
+            for j in range(2,sheet.max_column+1):
+                Dict[sheet.cell(row=1,column=j).value]=sheet.cell(row=i,column=j).value
+    print(Dict)
+
+
+excel_demo()
