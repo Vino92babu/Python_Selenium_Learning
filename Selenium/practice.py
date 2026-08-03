@@ -306,7 +306,7 @@ def web_table_sort_demo():
 # web_table_sort_demo()
  
 def excel_demo():
-    book = openpyxl.load_workbook("D:\\Learning\\Python_Selenium\\Selenium\\PythonDemo.xlsx")
+    book = openpyxl.load_workbook("D:\\Interview\\Learning\\Python_Selenium_Learning\\Python_data.xlsx")
     sheet = book.active
 
     # To read the value  
@@ -349,10 +349,27 @@ def excel_demo():
     # To read specific testcase data value in sheet using for loop and store in dict.
     Dict = {}
     for i in range(1,sheet.max_row+1):
-        if sheet.cell(row=i,column=1).value =="Testcase4":
+        if sheet.cell(row=i,column=1).value =="TC4":
             for j in range(2,sheet.max_column+1):
                 Dict[sheet.cell(row=1,column=j).value]=sheet.cell(row=i,column=j).value
     print(Dict)
 
+# excel_demo()
 
-excel_demo()
+def upload_download_demo():
+    driver.implicitly_wait(4)
+    browser("https://rahulshettyacademy.com/upload-download-test/")
+    a= driver.title
+    download_button = '//button[@id="downloadButton"]'
+    assert a == "RS Web Table Automation Page"
+    wait = WebDriverWait(driver,15)
+    wait.until(expected_conditions.element_to_be_clickable(driver.find_element(By.XPATH,download_button)))
+    driver.find_element(By.XPATH,download_button).click()
+    time.sleep(5)
+
+
+
+
+
+
+upload_download_demo()
