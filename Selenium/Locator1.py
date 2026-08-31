@@ -15,6 +15,6 @@ print(message)
 assert "Success" in message
 driver.find_element(By.XPATH,"(//input[@type='text'])[3]").send_keys("Babu")
 driver.find_element(By.XPATH,"(//input[@type='text'])[3]").clear()
-time.sleep(2)
+time.sleep(2).
 
 
