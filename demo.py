@@ -10,4 +10,8 @@ driver.get("https://www.google.com")
 
 print("Title:", driver.title)
 
+<<<<<<< HEAD
 driver.quit()
+=======
+driver.quit()....
+>>>>>>> 9338615aedea9414858d876414363a993e1bbe20
