@@ -1,0 +1,33 @@
+Pytest Testing Framework
+
+. Install Pytest - pip install pytest
+    pip install pytest
+    pytest --version
+
+    Enable pytest in VS Code
+
+    Open:   Ctrl + Shift + P
+
+    Search: Python: Configure Tests
+
+    Select: pytest
+
+. Naming conventions to follow for Pytest Tests
+    file name and test name shuld statrts with 'test_' or ends with '_test'  
+
+. Running Pytests from command Line and PyCharm
+    To run all test in folder : py.test --> for more detailed use: py.test -v --> for printing console use : py.test -v -s 
+
+. Running selectedItest files using pytest
+. Running selected test Methods based on matching keywords
+. Pytest Tags Mechanism to run tests based on functionality
+. Failing and Skipping tests with Annotations using Pytest
+. What are fixtures and importance of their Hooks in Pytest
+. How Fixtures can be configured in Conftest file for better
+readability
+. Different scopes of fixtures and their related annotations to setup
+Pre and Post conditions of the Test
+. How Parameterization can be achieved for Tests with multiple
+sets of data
+. How to pass command Line arguments into PyTests
+. Html report Generation for Pytests Execution
