@@ -18,7 +18,7 @@ chrome_options.add_argument("--ignore-certificate-errors")
 # driver=webdriver.Chrome(options=chrome_options)
 
 driver=webdriver.Chrome()
-driver.maximize_window()
+driver.maximize_window() 
 
 
 '''Browser's url'''
@@ -306,7 +306,7 @@ def web_table_sort_demo():
 # web_table_sort_demo()
  
 def excel_demo():
-    book = openpyxl.load_workbook("D:\\Interview\\Learning\\Python_Selenium_Learning\\Python_data.xlsx")
+    book = openpyxl.load_workbook("D:\GIT\Python_Selenium_Learning\Selenium\PythonDemo.xlsx")
     sheet = book.active
 
     # To read the value  
@@ -351,15 +351,15 @@ def excel_demo():
     for i in range(1,sheet.max_row+1):
         if sheet.cell(row=i,column=1).value =="TC4":
             for j in range(2,sheet.max_column+1):
-                Dict[sheet.cell(row=1,column=j).value]=sheet.cell(row=i,column=j).value
+                Dict[sheet.cell(row=1,column=j).value] = sheet.cell(row=i,column=j).value
     print(Dict)
 
 # excel_demo()
 
-def upload_download_demo():
+def excel_download():
     driver.implicitly_wait(4)
     browser("https://rahulshettyacademy.com/upload-download-test/")
-    a= driver.title
+    a = driver.title
     download_button = '//button[@id="downloadButton"]'
     assert a == "RS Web Table Automation Page"
     wait = WebDriverWait(driver,15)
@@ -367,9 +367,39 @@ def upload_download_demo():
     driver.find_element(By.XPATH,download_button).click()
     time.sleep(5)
 
+# excel_download()
+
+file_path = r"C:\Users\vino9\Downloads\download.xlsx"
+search_name = "Banana"
+new_value = 1255
+col_name = "price"
+
+def update_Upload_excel_data(file_path , search_name , col_name , new_value):
+    book = openpyxl.load_workbook(file_path) 
+    sheet = book.active
+    data = {}
+
+    for i in range(1, sheet.max_column + 1):
+        if sheet.cell(row=1 , column = i).value == col_name :
+            data["col"] = i
+
+    for i in range(1 , sheet.max_row + 1):
+        for j in range(1, sheet.max_column + 1):
+            if sheet.cell(row = i, column = j).value == search_name:
+                data["row"] = i
+    sheet.cell(row = data["row"] , column = data["col"]).value = new_value
+    book.save(file_path)
+
+    file_input = driver.find_element(By.CSS_SELECTOR,"input[type='file']")
+    file_input.send_keys(file_path)
+    time.sleep(2)
+    price_column = driver.find_element(By.XPATH,'//div[text()="Price"]').get_attribute("data-column-id")
+    actual_price = driver.find_element(By.XPATH,f'//div[text()="{search_name}"]/parent::div/parent::div/div[@id="cell-{price_column}-undefined"]').text
+
+    # print(actual_price)
+    assert int(actual_price) == new_value
+
+# update_Upload_excel_data(file_path, search_name, col_name, new_value)
 
 
 
-
-
-# upload_download_demo()
