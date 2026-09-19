@@ -12,7 +12,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 'For "Headless" automation we have created chrome_options'
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("headless")
-'To ignore the cretificated error like ,"proceed"'
+'To ignore the cretificated error like ,"proceed"' 
 chrome_options.add_argument("--ignore-certificate-errors")
 'pass chrome_options_add_argument when its needed' 
 # driver=webdriver.Chrome(options=chrome_options)
@@ -396,10 +396,10 @@ def update_Upload_excel_data(file_path , search_name , col_name , new_value):
     price_column = driver.find_element(By.XPATH,'//div[text()="Price"]').get_attribute("data-column-id")
     actual_price = driver.find_element(By.XPATH,f'//div[text()="{search_name}"]/parent::div/parent::div/div[@id="cell-{price_column}-undefined"]').text
 
-    # print(actual_price)
+    print(actual_price)
     assert int(actual_price) == new_value
 
-# update_Upload_excel_data(file_path, search_name, col_name, new_value)
+update_Upload_excel_data(file_path, search_name, col_name, new_value)
 
 
 

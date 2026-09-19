@@ -1,8 +1,22 @@
 Pytest Testing Framework
 
-. Install Pytest - pip install pytest
-    pip install pytest
-    pytest --version
+. Install Pytest - 
+    run cmd in vs terminal
+    python --version
+    python -m pip --version
+    python -m pip install pytest
+    create --> Global
+    .\.venv\Scripts\Activate.ps1
+    python --version
+    python -m pip --version
+    python -m pip install pytest
+    python -m pytest --version
+
+    Press: Ctrl + Shift + P
+
+    Search: Python: Configure Tests --> & Select it.
+    Then choose: pytest
+    and select the folder of pytest
 
     Enable pytest in VS Code
 
@@ -15,19 +29,34 @@ Pytest Testing Framework
 . Naming conventions to follow for Pytest Tests
     file name and test name shuld statrts with 'test_' or ends with '_test'  
 
-. Running Pytests from command Line and PyCharm
-    To run all test in folder : py.test --> for more detailed use: py.test -v --> for printing console use : py.test -v -s 
+. Running Pytests from command Line 
 
-. Running selectedItest files using pytest
-. Running selected test Methods based on matching keywords
-. Pytest Tags Mechanism to run tests based on functionality
-. Failing and Skipping tests with Annotations using Pytest
-. What are fixtures and importance of their Hooks in Pytest
-. How Fixtures can be configured in Conftest file for better
-readability
-. Different scopes of fixtures and their related annotations to setup
-Pre and Post conditions of the Test
-. How Parameterization can be achieved for Tests with multiple
-sets of data
+    To run all test in pytest folder : pytest --> for more detailed use: pytest -v --> for printing console use : pytest -v -s 
+
+    Running selected test file : pytest {filename}.py -v -s   
+
+    Running selected test Methods based on matching keywords: pytest -k card -v
+
+    we can mark (tag) test @pytest.mark.smoke : pytest -m smoke -v
+
+    we can skip test @pytest.mark.skip :  pytest test_bank_account.py -v
+
+ . Fixtures --> refer fixture.py file--> setup - runs before actual test and Yield act as teardown --> runs after the test completed
+
+. How Fixtures can be configured in Conftest file for better readability --> 
+    conftest file to generalize fixture and make it available for all testcases in all file.
+    run: pytest test_fixture.py -v -s
+
+. Different scopes of fixtures and their related annotations to setup Pre and Post conditions of the Test --> 
+    this like runing setup only once before all the test case and teardown after all test cases. --> so we need to organise test cases inside class. 
+    in class we can pass the self parameter with the fixture --> @pytes.mark.usefixture("setup")
+    run : pytest test_fixture.py -v -s
+
+. How Parameterization can be achieved for Tests with multiple sets of data --> look at Parameterization.py file.
+
+
+
 . How to pass command Line arguments into PyTests
+
+
 . Html report Generation for Pytests Execution
