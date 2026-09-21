@@ -60,3 +60,5 @@ Pytest Testing Framework
 
 
 . Html report Generation for Pytests Execution
+
+install : pip install pytest-html
